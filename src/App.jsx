@@ -3,6 +3,7 @@ import SimpleDatePicker from './components/SimpleDatePicker'
 import WorkspaceDataGrid from './components/WorkspaceDataGrid'
 import FlowDiagram from './components/ReactFlowDIagram';
 import AccessibleTabs from './components/AccessibleTabs';
+import AccessibleSearchbar from './components/AccessibleSearchBar';
 function App() {
   return (
     <>
@@ -10,7 +11,8 @@ function App() {
       <MultiSelectDropdown/>
       <WorkspaceDataGrid/> */}
       {/* <FlowDiagram /> */}
-      <AccessibleTabs/>
+      {/* <AccessibleTabs/> */}
+      <AccessibleSearchbar/>
     </>
   )
 }
